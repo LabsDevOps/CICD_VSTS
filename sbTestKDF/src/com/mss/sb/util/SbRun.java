@@ -87,7 +87,7 @@ public class SbRun extends Extents {
 		driver.manage().window().maximize(); // maximize the window
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		OrderedProperties properties2 = new OrderedProperties();
-		properties2.load(new FileInputStream(new File("E:\\VSTSDeploy\\sbTestKDF\\src\\com\\mss\\sb\\resources\\AllExcelSheets.properties")));
+		properties2.load(new FileInputStream(new File("C:\\FinalAgent\\_work\\11\\s\\sbTestKDF\\src\\com\\mss\\sb\\resources\\AllExcelSheets.properties")));
 		
 	
 		try {

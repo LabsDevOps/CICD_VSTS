@@ -7,7 +7,7 @@ import java.util.Properties;
 public class ReadProp{
 public Properties getDataProp() throws Exception{
 
-		File f= new File("E:\\VSTSDeploy\\sbTestKDF\\src\\com\\mss\\sb\\resources\\SbAllProperty.properties");
+		File f= new File("C:\\FinalAgent\\_work\\11\\s\\sbTestKDF\\src\\com\\mss\\sb\\resources\\SbAllProperty.properties");
 		FileInputStream fis = new FileInputStream(f);
 		Properties p= new Properties();
 		p.load(fis);
